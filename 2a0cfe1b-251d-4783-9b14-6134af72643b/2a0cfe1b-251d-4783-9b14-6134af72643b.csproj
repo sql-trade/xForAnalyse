@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\xtra\Indicators_initial\2a0cfe1b-251d-4783-9b14-6134af72643b.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0431DBC2-E355-4D53-8829-6F53B83D1E42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>AlphaX-BiasDetermination</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>1.1.9471.26094</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Collections.Specialized" />
+    <Reference Include="System.ComponentModel.Annotations" />
+    <Reference Include="System.ComponentModel.Primitives" />
+    <Reference Include="System.ComponentModel.TypeConverter" />
+    <Reference Include="System.Diagnostics.Debug" />
+    <Reference Include="System.Diagnostics.Process" />
+    <Reference Include="System.Drawing.Primitives" />
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Primitives" />
+    <Reference Include="System.ObjectModel" />
+    <Reference Include="System.Reflection.Emit.ILGeneration" />
+    <Reference Include="System.Reflection.Emit.Lightweight" />
+    <Reference Include="System.Reflection.Primitives" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Extensions" />
+    <Reference Include="System.Runtime.InteropServices" />
+    <Reference Include="System.Runtime.Serialization.Primitives" />
+    <Reference Include="System.Security.Cryptography.Algorithms" />
+    <Reference Include="System.Security.Cryptography.Primitives" />
+    <Reference Include="System.Text.Encoding.Extensions" />
+    <Reference Include="System.Threading" />
+    <Reference Include="System.Threading.Thread" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.ReaderWriter" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_0023=q$UGLAs2torssIzQTr0rJrBnJvAkvUOqoLEz8QbsbtwQ.cs" />
+    <Compile Include="_0023=q04ZNUv9myDxvIni5fNhwucXAhfDHu8aa9Z1b3JwHwzI.cs" />
+    <Compile Include="_0023=q0C1By5Hj$DlDY$3lpMXZSX0K71k$pCbzepk4PQmZgcw.cs" />
+    <Compile Include="_0023=q2kqWHyVvqlWtqUz1q$iosvwf9KuMHJgwV0IMc0$yuc0.cs" />
+    <Compile Include="_0023=q3Z707sf1Z6QYBMTQuGe8e7uWYvhIWEHTNiXJcu8bpAk.cs" />
+    <Compile Include="_0023=q3aKsaOvw5wgYbU8FxFeujGwW8WfoOqUX5FEcDS_2$J4.cs" />
+    <Compile Include="_0023=q4_EpKnaOEKUpIkr0f2f09gFxSJEJP$2UBG5eIOEwi9M.cs" />
+    <Compile Include="_0023=q5CHgop3KNxs5rDSXzj$7AG11ryi4o2Vum3dp7WBJp8U.cs" />
+    <Compile Include="_0023=q5CHgop3KNxs5rDSXzj$7AIviALitMCSCbJxropfq0yw.cs" />
+    <Compile Include="_0023=q5CHgop3KNxs5rDSXzj$7AJb0KoDd6$tKBYQzpr4Wz_g.cs" />
+    <Compile Include="_0023=q5p6xkrkdJSh0VwsJjAbr9RDqeRsjXNCITX7UWi5zZ1E.cs" />
+    <Compile Include="_0023=q5p6xkrkdJSh0VwsJjAbr9aiZVHBui4vxikDmVGgp8ec.cs" />
+    <Compile Include="_0023=q5yJJcyMAf6dWy_klVpRS7AQuPd5xV0y27s04Ug_0uNY.cs" />
+    <Compile Include="_0023=q6slBNMetR4QDYNgdT5g9nsgB_nglSaKfGwKk8Tb_lJo.cs" />
+    <Compile Include="_0023=q7fh0AF_e7JWpId2FeKhqjO005tUxPXjYNY7ZmWEfyrM.cs" />
+    <Compile Include="_0023=q8ZATM7b4tlzXDfDEeL_6Iny7TuJeaPAvSjl$_iy$dhk.cs" />
+    <Compile Include="_0023=q8sJsXUaY4sEeTaUbp_zC90t84hI_sa8nbmM_fFPDo7w.cs" />
+    <Compile Include="_0023=q9CUcm$312lCAEwI_ln88GWoHLJ53WPsqr9vPjC2eXuE.cs" />
+    <Compile Include="_0023=qDes9HIIdFej7rXpUnJiIEIDZVU98rtmBVgUZqxYx1o4.cs" />
+    <Compile Include="_0023=qFKu5gJFOe8bbKo6kdUGEklSz_YhsgEgmQt4GMyEV5XE.cs" />
+    <Compile Include="_0023=qG98EfcZ9D8RHSKIPlqVsZazAXhd7bMhfZMp1vxI$uCY.cs" />
+    <Compile Include="_0023=qGSg5qQxfip6Jm0sH6n0HfEuIiGbAdpptIJQn6_MGphQ.cs" />
+    <Compile Include="_0023=qGSg5qQxfip6Jm0sH6n0HfMdyERAq0Wv3RIq49u3XUx4.cs" />
+    <Compile Include="_0023=qGSg5qQxfip6Jm0sH6n0HfPYnoCrwBQI60QeweMvYrKE.cs" />
+    <Compile Include="_0023=qGcsz7HfX984uP8Xu09Fo7HlkvqrbQLzoLe_R7kU1wJU.cs" />
+    <Compile Include="_0023=qHX9iks_Ff_k_LMJyxi_8AzXWHThTDxyHddBoVSr_MWA.cs" />
+    <Compile Include="_0023=qHfmHGiHC5POBed6Fc5x9mcJwNv7L4pptzBFDUOxyYMs.cs" />
+    <Compile Include="_0023=qIdT2h0yiJb9nw4dvi34Hn8woBor4URPBDp2JHZo8qv8.cs" />
+    <Compile Include="_0023=qJVEWyF$ph3NDm9HEm4qFW463ojr2Yn1qyj5eHkZNEHw.cs" />
+    <Compile Include="_0023=qJgBMns716YFBj$5$GudhOFzciw5XJlpju0DnQe26208.cs" />
+    <Compile Include="_0023=qKDSxldSJFS7s3lzbHfb47he1l2mo3m9Q8fgCOFFNkvE.cs" />
+    <Compile Include="_0023=qKtea$KOG3UnspFjjaH$IHYNK98E4$zUeDFQ$9ZrUZnc.cs" />
+    <Compile Include="_0023=qL6842zRCJJOQqcWU0gsfIS_O1TU3GE97vKCfZjwHTS8.cs" />
+    <Compile Include="_0023=qLGOxky9lGZWelnlPpn9Fe_4gLQaU5r7YCLO6t4Qj8XI.cs" />
+    <Compile Include="_0023=qMxaZlqv8fBpmgFyZKD5i8rMgOM6PZUi1vgal1cJSCTQ.cs" />
+    <Compile Include="_0023=qNWM3kH0IhOXbDZfDBD5w7dHy4xuwywqyCKidOOEcA_o.cs" />
+    <Compile Include="_0023=qNg8xGcasstntUwMAs6FO9MSukM5tcArwD4BKmtMjWQo.cs" />
+    <Compile Include="_0023=qO5nG5aMfMNDP1dXblTVHOrp1OX1yF7uFi4sTHJGAJIA.cs" />
+    <Compile Include="_0023=qOKic1dIva_mXQIeeW0N6chqpZDcHRcKit5AbcTS7z7M.cs" />
+    <Compile Include="_0023=qOKic1dIva_mXQIeeW0N6cngkbUYGKzZKSAvdqBjrQlk.cs" />
+    <Compile Include="_0023=qPRKlpYhfOPBiqTvOsddNz$M1pfrCb8rW5mESzJrFO2k.cs" />
+    <Compile Include="_0023=qPRKlpYhfOPBiqTvOsddNz8zZmMPjsfThI28VyQyDDS0.cs" />
+    <Compile Include="_0023=qQ1O$nsm6TmCmduhkTS5G_1rwpvIfUorIkldVyEmnNs8.cs" />
+    <Compile Include="_0023=qQSbeOH50Nx3EsvopeffklxMRTh1s_8NXDCIB0p0UdH0.cs" />
+    <Compile Include="_0023=qQiS$5r3UnP96Ens26kLsn4aA0QA5xlcAQ9JvPzgatqU.cs" />
+    <Compile Include="_0023=qQy5Uy04RcpRO2jOWjsgVUA1nukFSlv9Q5EKvOUTdSI8.cs" />
+    <Compile Include="_0023=qSZ70$$RaX1AoX1U0kmNFpnxj8OUcIal1F8CoqaJFCQY.cs" />
+    <Compile Include="_0023=qThw3iF1dK2Vg_5sGDNIyfYDVC9uJXcSoXG9OodyFf3E.cs" />
+    <Compile Include="_0023=qUDk92k8wsLXYN1LHGh7adUBRBlvIx$ZuN5lZCii33mQ.cs" />
+    <Compile Include="_0023=qUSML4YR8F0Ew1mAViTHhSvrTDRIEj8RogRNR4cNaYL8.cs" />
+    <Compile Include="_0023=qUVQzOv8ro$7pv5iwVxjsg$AhEBfggaxSTyQ4bNB$aoc.cs" />
+    <Compile Include="_0023=qUVQzOv8ro$7pv5iwVxjsg8RM5ZWWkt3skFZ4SUG6C3Q.cs" />
+    <Compile Include="_0023=qVtWYh6fExQY$YwB78aZ$shpEENCRE2idZyN6SqPCB3o.cs" />
+    <Compile Include="_0023=qWDvNzRjMX3WKK83DAl5oK1qMWY4mame4c85MPIFGvuU.cs" />
+    <Compile Include="_0023=qWXiM5IgM4IB0l6guG5SIS47oMmxD9T4jAexYk5zwE6Q.cs" />
+    <Compile Include="_0023=qWmPnWNn5_OYQH4vZ7aF4Kh76wmOmyCfUkjDC8wN0G6w.cs" />
+    <Compile Include="_0023=qXF7PgaLn1Cfsc37cbRA7Oj94Vz26EGv21CgMO_o9b3A.cs" />
+    <Compile Include="_0023=qYDklNFBZVm0kyQuoYW6c$5vjg_6Y7P4zx8e6nJSL_HQ.cs" />
+    <Compile Include="_0023=qYJZ$D_y9YIhy67wWaYOV2wl0Cj3rSLSUoP$LkNgzwJQ`1.cs" />
+    <Compile Include="_0023=qYSCiWJBCeP8dOGjUVqPyDS5gbRfYCm4zWAifUegB0hg.cs" />
+    <Compile Include="_0023=qYSCiWJBCeP8dOGjUVqPyDVEIRDgfHEYpdrAa_NZF9ag.cs" />
+    <Compile Include="_0023=q_D8QoylOIbhWeyUptNkwGrJjU31x34_RbTVkZUXk$v4.cs" />
+    <Compile Include="_0023=qa3$M2r29rJJmkWg$S4IU1GNRt7p6rEShFlpDkHlfaJw.cs" />
+    <Compile Include="_0023=qbMBFF$mQ0W3Kxt_U6uN7YCugroQ0$tx1VVR9mJQx1ac.cs" />
+    <Compile Include="_0023=qbMBFF$mQ0W3Kxt_U6uN7YFbl2vmKYC37wgHikhVpnYI.cs" />
+    <Compile Include="_0023=qcPSm8wgVj6QeAthxRvpO3hXV4UAz7f$wuLWrgK79oTg.cs" />
+    <Compile Include="_0023=qdOp6CRzHRCSf973zBxqs4XQ70_MqMHqtOd2ASrro8BA.cs" />
+    <Compile Include="_0023=qdYMMamnBL0CHpfa_3irMrVA15ixPRrrNPonpzCanFfY.cs" />
+    <Compile Include="_0023=qdo8C_Hgt_uZxIIwK6YcOafjf4mqGpXRpePfze4W7uSY.cs" />
+    <Compile Include="_0023=qeWdSIazehmG4estJ1wQeLJn2XArqeYDvYUlhqt7KXYs.cs" />
+    <Compile Include="_0023=qeWdSIazehmG4estJ1wQeLLzWXDzFVQrf$K2DJvMbbcU.cs" />
+    <Compile Include="_0023=qfvYd7NqTAr$wrs1PFvgC_43h0COTZFLheb98R7qK4J0.cs" />
+    <Compile Include="_0023=qg2QDNbuj3FRbJqE0ZMPGroXtgFEgC$5klGE2EWdQwtg.cs" />
+    <Compile Include="_0023=qhrmBiZKLim6sODrS16jJ1HdVRNA4GQbNF_niJW$$$eQ.cs" />
+    <Compile Include="_0023=qjqe7GJPVxoapHCOoeKDtfoNgaK26oKgPmVGWsHaQdXI.cs" />
+    <Compile Include="_0023=qkJ7zRSi0YDwvDCh9Q7U31GlOv$z5prlroux6C9gjU6I.cs" />
+    <Compile Include="_0023=ql9DS$6e$ODyjV3Zk1RjZxVD5zLXvxZJx_RBJVhZYoYc.cs" />
+    <Compile Include="_0023=qlAnbBSu9U7yGl0DedeifF0ooAIOEpNBwh_P6_hI3USE.cs" />
+    <Compile Include="_0023=qlAnbBSu9U7yGl0DedeifFylqaovwvG6pgIJY6kCUsNQ.cs" />
+    <Compile Include="_0023=qmsg2TM7PTsv3yHUY4_x0QnAfq0L5pWONvVzgGEXRezI.cs" />
+    <Compile Include="_0023=qoXlT6ptOyrPv2V8A_bJBFLKBErmbu7Q$jhyg$gjssfM.cs" />
+    <Compile Include="_0023=qovD0exPAwNVcd_R4XGUn6ZPck70dz$WZEuOMhWuqQ$I.cs" />
+    <Compile Include="_0023=qpG6vZXhIOFvm7Bw2ytv9zYgt1Sl7V0Wvn4i6VNrvRuk.cs" />
+    <Compile Include="_0023=qqAhxA0LYv9rzu6rSR8nkJ5M23vkM7wXa$ukAvMelzek.cs" />
+    <Compile Include="_0023=qqAhxA0LYv9rzu6rSR8nkJ_sx217qu42N2yhQDqKp2aQ.cs" />
+    <Compile Include="_0023=qqbwV7V_wdvIWxFJMsOFVCVLmcfA3UpHpLjJyHcknDeE.cs" />
+    <Compile Include="_0023=qr54P5jg2sV8ZqXVq9hPShEJpCB8Y6H_Jfqd55jD8NC0.cs" />
+    <Compile Include="_0023=qr54P5jg2sV8ZqXVq9hPShFNHQOaS89TpbyvHVTFsn6w.cs" />
+    <Compile Include="_0023=qrL9aoQdeCgnspB5timnk9qi4_4DqBN99BwU2KWVdB0Q.cs" />
+    <Compile Include="_0023=qtQ_N8FE87Hwb70J$7SYyhh7fP9fObE_mRNanx7UPjbY.cs" />
+    <Compile Include="_0023=qtuMvwRMbpOd86cuUR3wb0qLv3NGr30SlWasBaI3MGiA.cs" />
+    <Compile Include="_0023=quNo93T5v1tPc5Vqf$hAuJu5IPX0QHxBcNsUHGYOj7wc.cs" />
+    <Compile Include="_0023=qwJKED_USVZuF3Yq0AgNZZe7Lseem1kmZS82IwJKzeZg.cs" />
+    <Compile Include="_0023=qx0xjw_r38Zja515NaF0fN9sQvardFTNe4evLaa$oq7s.cs" />
+    <Compile Include="_0023=qyCTpDto865$WrqR0F$r6oJ_YRZz3CV02Y2ogWkI23Rg.cs" />
+    <Compile Include="_0023=qymjs7edcMk5hP2sF3Dtg62R0AhONt_iTK0sgmJml7Po.cs" />
+    <Compile Include="_0023=qymjs7edcMk5hP2sF3Dtg6zPvbzKFAaesDpdujm94aA0.cs" />
+    <Compile Include="_0023=qzho0MGHqMTqniG2LFw5PlbQqpsGJPCzpxFf3hGAITGg.cs" />
+    <Compile Include="_0023=qzho0MGHqMTqniG2LFw5Plfk700q0Y$RZWtkXcjU3Grk.cs" />
+    <Compile Include="_0023=z$LGtog3o3d6bgRNQVUJYIstg2z$JPJd5Y0gf01c=.cs" />
+    <Compile Include="_0023=z3q_V_Fn__FW$gXZav1DBAn7ew7bpg9bqV8JYLdg=.cs" />
+    <Compile Include="_0023=z3q_V_Fn__FW$gXZav1DBAvqPLgyIEANlEa37hbl6W4g.cs" />
+    <Compile Include="_0023=z450Sy_YFWll_apdnEPXkR6UI5DmCEfznRN0W7_5lrhc.cs" />
+    <Compile Include="_0023=z6xM7pX4ELU$h6uA3zkArR0Y05jXOk0FzntJwSbjPum2.cs" />
+    <Compile Include="_0023=z7DKwIZV11NJQ2$UQB0O92h87NYeRbMVMffAvwfGhrvp.cs" />
+    <Compile Include="_0023=z7DKwIZV11NJQ2$UQB0O92lci47b52nqkWQ==.cs" />
+    <Compile Include="_0023=z7KYpPHAtnA9mvIeWdqhoA12e4xGyYjOlBKlxosY=`1.cs" />
+    <Compile Include="_0023=z7KYpPHAtnA9mvIeWdqhoAxXc4$CML6MDbC6sD5KOcVx.cs" />
+    <Compile Include="_0023=z7R70OiYB7GvvUJIAcTFvU3xU5S5cJzRx3w4NiW8=.cs" />
+    <Compile Include="_0023=zAPRSxqHCuifWRphx8nJLSD6uZPzfp8koGr7PrA6SbJu.cs" />
+    <Compile Include="_0023=zB5Spk1ELCsBWQIfVzTEl8PSP9Xjx7ywK3SKCe$UVEFq.cs" />
+    <Compile Include="_0023=zBENocXgy9xRT0hbXuA==.cs" />
+    <Compile Include="_0023=zClT8aRHxyaWrfTKmc4yWedPr2T3sPkrw2YFKUVYCi38.cs" />
+    <Compile Include="_0023=zE_v$046zbn72ktEU17Mqxy0eVP3qAwnk97oIjss=.cs" />
+    <Compile Include="_0023=zEbog_7aS8NJtfAPF$h7hqIC5fj6oryKwzQ==.cs" />
+    <Compile Include="_0023=zEi2u2leNw3s6AdNxrx4qaxsYFF4F5t6lpA==.cs" />
+    <Compile Include="_0023=zFJ1693eWMWnZMr45Y$qwayBtWUXjad5uSK0rqSs=.cs" />
+    <Compile Include="_0023=zG_d_Dtu9n97STGzJ53t4x0joAJZ0iZrxUJI4_Mw=.cs" />
+    <Compile Include="_0023=zHGlyOPgvYJ5QaxI1Siac9V8Fc8t4NcfiFEZV0k4=.cs" />
+    <Compile Include="_0023=zHGlyOPgvYJ5QaxI1Siac9ZvTj4oNgFFTMu_$CBQhDZS.cs" />
+    <Compile Include="_0023=zISbK5nZKgAQb$Ce$sk39WNYd6ZRvMgLAgQ==.cs" />
+    <Compile Include="_0023=zJMV3IjfNvFGgsbo$5Sl693VexzDP37tU$3Zhlzz_eZ4.cs" />
+    <Compile Include="_0023=zJMV3IjfNvFGgsbo$5Sl69zPFUO_SWaAKog==.cs" />
+    <Compile Include="_0023=zL16I$G1qSKYZ7dsLAinfktf9Ok2LOhzvUVbOITNjJRO.cs" />
+    <Compile Include="_0023=zM9Pocwt800d27L9n5ULsNxT8Yo$RACn$dQ==.cs" />
+    <Compile Include="_0023=zMBom79s38t0Ni3hR159SRk6hAEVPnsqevA==.cs" />
+    <Compile Include="_0023=zMCqAV2TdtVhLYXKOFbBQU8JKvh4VCrGf0kg244M=.cs" />
+    <Compile Include="_0023=zMCqAV2TdtVhLYXKOFbBQUytvRRaqaFS0nn61ie9FaUH.cs" />
+    <Compile Include="_0023=zMSni8pJeW9NIjZJYqPPtMd0IgA7FLQw3Ug==`1.cs" />
+    <Compile Include="_0023=zNFmsfyoFi47B18uX8m391P4Qe4tmWwlFxA==.cs" />
+    <Compile Include="_0023=zNJWUVdPZ_xxxFLxhEjH1zFxRFwaGEskc0A==.cs" />
+    <Compile Include="_0023=zO3Hy635DYfpBgWirlqr4mc_dh0wz.cs" />
+    <Compile Include="_0023=zPpddU6LXPrXnCx$kirUkI9hya9h9S0586g==.cs" />
+    <Compile Include="_0023=zPpddU6LXPrXnCx$kirUkI_NXMrsMw099qA==.cs" />
+    <Compile Include="_0023=zPsQTqQwGa7z64XFTjGDNvL3cntZzHnMV7lR7aYE=.cs" />
+    <Compile Include="_0023=zQ5xZN$hIg8acMzd2h5YTIAND6uLRzOOXwTsxN_0=.cs" />
+    <Compile Include="_0023=zQEUajLITVHf8aKPQUcNs$YanKS$Ktv0nVxGWfeGix0$.cs" />
+    <Compile Include="_0023=zRswm4dn6AZyojfU22XwCTAIDiRwurV$NuT92UV8=`1.cs" />
+    <Compile Include="_0023=zSDMx8UAFbbtHgpM8wsrFbSyepbVu7Z69og==.cs" />
+    <Compile Include="_0023=zSDMx8UAFbbtHgpM8wsrFba2aUlzlI8oqQi40SKM=.cs" />
+    <Compile Include="_0023=zT4rLZ00kqhCuw92Ue9jIXpQz9VeYI76LYACBoKjV4Lk.cs" />
+    <Compile Include="_0023=zTGlbHyculWI61kCI9V9HhRpmrF3LbcecW_bAa90=.cs" />
+    <Compile Include="_0023=zTzMluAPj$YJZyfKB988Q_kwZ7myZQfL8ddcihyrzBrq.cs" />
+    <Compile Include="_0023=zV$u_TH08aJsjd7bB$yr4dmpPp5q1ChYMrQ==.cs" />
+    <Compile Include="_0023=zV$zgkePC$RPTKeDtxD9_9m_evi02PkQIL7pDCEUjliP.cs" />
+    <Compile Include="_0023=zV3UiTijiHdXfWmKuCK5R66fEo1E0SDXgIA==.cs" />
+    <Compile Include="_0023=zX44EE_9Hs6YNu3lHEA==.cs" />
+    <Compile Include="_0023=zXvsSgen7jM2XXjmh6ml_9pNSK9KHU2tqwfIWOr$0HLu.cs" />
+    <Compile Include="_0023=zYZIjb8P83fU0ffLX6M0BV9rIE$$uJDqxIiuhJdp$HL8.cs" />
+    <Compile Include="_0023=zYwOhLkz0_nd$WewrSFVaQ4Tqn_MwSE6V_L_U5TUqu4_.cs" />
+    <Compile Include="_0023=z_tN_xQjnIDDnRNJWpnbSU7J0_36rVAip9g==.cs" />
+    <Compile Include="_0023=zarDVyR5SBsAKjnKY_ge_mXdmoMSpidfxpQ==.cs" />
+    <Compile Include="_0023=zawplAdueP6vVpW4klLvNjgFDG5uLVjM5KQ==.cs" />
+    <Compile Include="_0023=zbPaOkZsoYiX$znRic8goXIirFUd4n2smZOKAgsQ=.cs" />
+    <Compile Include="_0023=zc9DmcB9Qdh780pyV5cTl$4MDX58N5eQYpA==.cs" />
+    <Compile Include="_0023=zcBPX3poEnAp0d2L2_ZuRoDnKCVU$U2z414exoz2lh7$.cs" />
+    <Compile Include="_0023=zcBPX3poEnAp0d2L2_ZuRoIvGTUC_VWnGlETVmro=.cs" />
+    <Compile Include="_0023=zct6LesJSpZ_jJiptU_ATeTPkhYznARw_9GlKWTub2RB.cs" />
+    <Compile Include="_0023=zdPmtjFlkxHfDhl05p01NCmfJfmiYbqTwnw==.cs" />
+    <Compile Include="_0023=zdPmtjFlkxHfDhl05p01NCo52_v41597hU9gLHiVtfIn.cs" />
+    <Compile Include="_0023=ze5rhn$p1WDptqCoga8k19y$bDyhrOwz8t2rkWTM=.cs" />
+    <Compile Include="_0023=zgONjtXx5Yl6ugNGmFjtLgmTP856YKecyrn0qc5roZ19.cs" />
+    <Compile Include="_0023=zi8QCTc98BGtHy20_mpeHrhrgUF5pnEaIXA==.cs" />
+    <Compile Include="_0023=zjCCLwkyZdbHIOi_$Jqu0R2ucAy5Ie5WsrQ==.cs" />
+    <Compile Include="_0023=zjIhxzQHk5E5v.cs" />
+    <Compile Include="_0023=zk2aaqGnDBvqtbJ9ywK93rFGDWkk6DT$7iQ==.cs" />
+    <Compile Include="_0023=zkLRBJtow1k4J$9TXAFpj317KqDQ2wwi2__EUgf7v3A9.cs" />
+    <Compile Include="_0023=zlOYJm9WuZE7f7ffjXIOC8UPYvZTxjZzVRA==.cs" />
+    <Compile Include="_0023=zlOYJm9WuZE7f7ffjXIOC8YKrFs2OfEoGXb2iq2Y=.cs" />
+    <Compile Include="_0023=zlzeq9JudfmdX647lRjYzftcjOdf_CeYq3neE2O7viSk.cs" />
+    <Compile Include="_0023=zm00fAu0pxQgoMO7HbdmrZXuqJRuIAszQ5SBNStuUFsW.cs" />
+    <Compile Include="_0023=zm5zrUYYEp_3I6cfqI4PfSxAB21p5biBaAg==.cs" />
+    <Compile Include="_0023=zmPJjdUwf8H55Zoml9k8GsZw_9ltXV04esRhh$4M=.cs" />
+    <Compile Include="_0023=zmZNkr2A$wNpd9cmKpJTvuMRfdjG1QEfoDSA415hW$M7.cs" />
+    <Compile Include="_0023=zmb_g_mTmoDfFlidPIOqDkBqaTMOgDe7bsVskZejlnRQ.cs" />
+    <Compile Include="_0023=zmtf$tZoFPyFyfsL5LM_pWd$BdMr9d5XC6g==`1.cs" />
+    <Compile Include="_0023=znUYq76l5YVG1oavp1Dpx2mjVOaVUbE9Md3v1Pus=.cs" />
+    <Compile Include="_0023=znUYq76l5YVG1oavp1Dpx2sh4VI1Frbu4VLeQRT86HPQ.cs" />
+    <Compile Include="_0023=znUYq76l5YVG1oavp1Dpx2tUKBTvF_dWk_uLIX3M=`1.cs" />
+    <Compile Include="_0023=znp_vzWvaxIC9GNIJ0_PT0bGUHwrFjWZ80PEotTI=.cs" />
+    <Compile Include="_0023=zoeIzLIcoFwL8$$k8zVmlpvL7Gl5MMCw_PuoFSPc=.cs" />
+    <Compile Include="_0023=zpRf2M10eCsOCEFfQ4vbbomQ_FcYAiDN7Hw==.cs" />
+    <Compile Include="_0023=zprl_Lzmo0ezkSGrJTjrL6P0oiDQljZyqyroH61vxrja.cs" />
+    <Compile Include="_0023=zrkMlj0lxEvO0CDKWztMZ$avNIHTmpwm0Zw==.cs" />
+    <Compile Include="_0023=zroHoGoiF08fA9zSrm43TYrtAEpJJjasMosonZ9o=.cs" />
+    <Compile Include="_0023=ztb0IYRJHnhJZrpiyS0KTIDurnhFX1AvrL0vTLzw=.cs" />
+    <Compile Include="_0023=zuw$dzoHUJIQS0UXJeI7$TC3206rmySNEEw==.cs" />
+    <Compile Include="_0023=zvfZQcDEN5YR6t9Q79QKMDajdUBJ36Oj4GfPGeuorneB.cs" />
+    <Compile Include="_0023=zw9O91V2E$DwRWFVXOiyD6o$71SzUmJrkB7_SBIk=`1.cs" />
+    <Compile Include="_0023=zw9O91V2E$DwRWFVXOiyD6qVqJuEhbQZeKWIDTv1SrNw.cs" />
+    <Compile Include="_0023=zxVvO3PqdlrL2QtrFrSDPWbf92ne7yTXWvQDoGsw=.cs" />
+    <Compile Include="_0023=zxVvO3PqdlrL2QtrFrSDPWepL33XWHy_BdQ==.cs" />
+    <Compile Include="_0023=zxZKZkq2xEMt3WPmcnMWLReqH2V5Fc9M4mwE1nBDte_A.cs" />
+    <Compile Include="_0023=zxg5lHORfHMwe_mFckdRAxnwrYtp2LqPoY8M0k5w=.cs" />
+    <Compile Include="_0023=zy0JMHjGyrz2wOpXkEUE$39QH3Y0y.cs" />
+    <Compile Include="_0023=zyRFVFmE2DzABTV6j50Wlc5y_AYMBluLFQw==.cs" />
+    <Compile Include="_0023=zz0IJigwzQ5zchxQSmuDNnN0f$JdeQweU0IQUloM=.cs" />
+    <Compile Include="_0023=zz681SnNzxQe_fJ2Fyuef23eC6lW5ZtDSESV9q08=.cs" />
+    <Compile Include="_0023=zzaosG$7VYDDHqK7akZUbq7Ro51ZpSippoaBZj04=.cs" />
+    <Compile Include="dje_qBAS48JAJSH8GHR93KRTKC5RSAPXXXNWUCAHW3C2MSB6AX.cs" />
+    <Compile Include="dje_qJY2NRDBMWDXJ5VJEZ6UJQ5FCUUAXZB5MYNFBYJZLQ5B6Q.cs" />
+    <Compile Include="dje_z46ZCNQR8LK5NMC7YV2DEJ9NJVYHPL2B7U2RQ8236AFTH9.cs" />
+    <Compile Include="-\dje_z28QZC7TDY7L57PS4RPCTYCD42CJZFMDYR6XLALKFQEDW4.cs" />
+    <Compile Include="-\dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRD.cs" />
+    <Compile Include="-\dje_z8V9QFVH4LRDM2GK2H2ZFRGYU45Z4SHVM7DZUMHM3YXDMM.cs" />
+    <Compile Include="-\dje_z8X6EKK78QETUVK3TBYHJPDMVCVFJQ65JNMFWMKBEVHJPG.cs" />
+    <Compile Include="-\dje_zAYG7KEKSQSJWJ3VVSCKTT6YLYE7EARVU5ZDEBLD258NQA.cs" />
+    <Compile Include="-\dje_zCUAVRFX969UUFDM2LG6RHUFPLLBDE6KL5JU9FACVXNQJA.cs" />
+    <Compile Include="-\dje_zG426HU5Y8N752U5TZBUUJVF6MWT4V73ZENJRRWJARDSY9.cs" />
+    <Compile Include="-\dje_zH4K7A9UJ9BJ4ZJ5CPSZ4HCVT88M5HFCUYKATXAJG9R6CJ.cs" />
+    <Compile Include="-\dje_zLCDDFCKTE5BG8B6742Q2E88S82DJDPYCNY22P6DVT2RN3.cs" />
+    <Compile Include="-\dje_zLGAW9XYEHQ2QSVXUQRPM9KUGWBLZCBS9Q3X6M8C73FY28.cs" />
+    <Compile Include="-\dje_zLJS8HDDY7N5C865APQJHUMBW2AQQPL2KZZJPC2UBA8RMY.cs" />
+    <Compile Include="-\dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33.cs" />
+    <Compile Include="-\dje_zMMAU385Y9K4M9G6H9F6P8N8LU4GMZNN5W7KKQ74SHHS6S.cs" />
+    <Compile Include="-\dje_zRCMNH5KWVDSSX9UMQZZ4P59ESRAHB2UTSL4QHPQHTYUJ7.cs" />
+    <Compile Include="-\dje_zRN5X6BR7JRPYRZHPNYXB5V9YQCPF769BD6USNJ9KTUR77.cs" />
+    <Compile Include="-\dje_zTP7UYPKKB9EQZ4ABLVAWD4ZWJF348R3VN8Y9U9XK_ejd.cs" />
+    <Compile Include="-\dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVML.cs" />
+    <Compile Include="-\dje_zUEPDJN2NDLSV25T5T2BN4MK595N5A3ACY6CBASFQ26ZHY.cs" />
+    <Compile Include="-\dje_zVUY7NAEX4ZX4TLNGLYWPCM6R6WAC9WVFARDZFV36ZVMHW.cs" />
+    <Compile Include="-\dje_zWM26HCWGAK2KKN74MYM77PK3S6GXM4K7QPZWYRC9_ejd.cs" />
+    <Compile Include="BiasDetermination\BiasDeterminationTool.cs" />
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="attention" />
+    <Resource Include="confirmation" />
+    <Resource Include="notification" />
+    <Resource Include="pricelevel" />
+    <Resource Include="signal" />
+    <Resource Include="silence" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BiasDetermination\Properties\Resources.resx" />
+    <EmbeddedResource Include="d7e4bfb4d7c3437e889622c6c1d74fab" />
+    <EmbeddedResource Include="NxhmkwJmfM" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="settings\control\calculationitemeditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\checkboxfiltereditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\colorpicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\colorradiobutton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\enabledisablefiltereditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\externalsettingswindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\imageradiobutton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\licenseideditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\lineeditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\lineeditorbase.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\openwindoweditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\popupcolorchooser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\productinfoeditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\productinfoeditorbase.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settings\control\sliderfiltereditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

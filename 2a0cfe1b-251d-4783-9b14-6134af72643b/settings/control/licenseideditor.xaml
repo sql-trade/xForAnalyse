@@ -1,0 +1,8 @@
+<lli11lllli:dje_zUEPDJN2NDLSV25T5T2BN4MK595N5A3ACY6CBASFQ26ZHYVA_ejd xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <StackPanel VerticalAlignment="Center">
+    <TextBox Name="LicenseIdUnmasked" Margin="3" Text="{Binding LicenseId, Mode=TwoWay}"/>
+    <PasswordBox Name="LicenseIdMasked" Margin="3" PasswordChar="•" Password=""/>
+  </StackPanel>
+</lli11lllli:dje_zUEPDJN2NDLSV25T5T2BN4MK595N5A3ACY6CBASFQ26ZHYVA_ejd>

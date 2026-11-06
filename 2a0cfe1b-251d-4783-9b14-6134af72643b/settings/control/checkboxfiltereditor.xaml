@@ -1,0 +1,11 @@
+<lli11lllli:dje_zWM26HCWGAK2KKN74MYM77PK3S6GXM4K7QPZWYRC9_ejd xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                              xmlns:lli11lllli="clr-namespace:-"
+                                                              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="auto"/>
+    </Grid.ColumnDefinitions>
+    <CheckBox Grid.Column="0" VerticalAlignment="Center" Margin="5, 0" IsEnabled="{Binding Enabled}"
+              IsChecked="{Binding Value}"/>
+  </Grid>
+</lli11lllli:dje_zWM26HCWGAK2KKN74MYM77PK3S6GXM4K7QPZWYRC9_ejd>

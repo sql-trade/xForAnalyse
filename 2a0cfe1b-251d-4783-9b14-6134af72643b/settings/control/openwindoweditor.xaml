@@ -1,0 +1,11 @@
+<lli11lllli:dje_z8V9QFVH4LRDM2GK2H2ZFRGYU45Z4SHVM7DZUMHM3YXDMM6Q_ejd xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Button Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5, 2" Padding="0"
+            Content="{Binding OpenWindowText}" Command="{Binding Path=OpenWindowCommand}"/>
+  </Grid>
+</lli11lllli:dje_z8V9QFVH4LRDM2GK2H2ZFRGYU45Z4SHVM7DZUMHM3YXDMM6Q_ejd>

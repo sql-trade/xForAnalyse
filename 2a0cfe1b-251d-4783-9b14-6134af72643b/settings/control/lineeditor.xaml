@@ -1,0 +1,14 @@
+<lli11lllli:dje_zH4K7A9UJ9BJ4ZJ5CPSZ4HCVT88M5HFCUYKATXAJG9R6CJ82_ejd xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                                                     ll111l1:Name="PopupParent" HorizontalAlignment="Stretch" Height="24">
+  <StackPanel Background="Transparent">
+    <Canvas HorizontalAlignment="Left" Margin="3" Height="18" Background="Transparent">
+      <Image RenderOptions.BitmapScalingMode="NearestNeighbor" Source="{Binding Preview}"/>
+    </Canvas>
+    <Popup ll111l1:Name="PopupWindow" Placement="Bottom" AllowsTransparency="False" StaysOpen="False"
+           PopupAnimation="Fade" PlacementTarget="{Binding ElementName=PopupParent}">
+      <lli11lllli:dje_z8X6EKK78QETUVK3TBYHJPDMVCVFJQ65JNMFWMKBEVHJPGDQ_ejd DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={Type lli11lllli:dje_zH4K7A9UJ9BJ4ZJ5CPSZ4HCVT88M5HFCUYKATXAJG9R6CJ82_ejd}}, Path=DataContext}"/>
+    </Popup>
+  </StackPanel>
+</lli11lllli:dje_zH4K7A9UJ9BJ4ZJ5CPSZ4HCVT88M5HFCUYKATXAJG9R6CJ82_ejd>

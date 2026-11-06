@@ -1,0 +1,40 @@
+<lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <StackPanel Margin="5">
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <StackPanel Orientation="Vertical" Margin="4">
+        <TextBlock>
+          <Run Text="{Binding Path=dje_zLNUKHXRJ_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd}}}"/>
+        </TextBlock>
+        <TextBlock Margin="0,10,0,0" HorizontalAlignment="Center">
+          <Hyperlink NavigateUri="mailto:support@alphaxtrade.com" TextDecorations="Underline"
+                     Foreground="{Binding RelativeSource={RelativeSource AncestorType={Type UserControl}}, Path=Foreground}">
+            <Run Text="{Binding Path=dje_zD66HZ73G_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd}}}"/>
+          </Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="0,10,0,0" HorizontalAlignment="Center">
+          <Hyperlink NavigateUri="https://alphaxtrade.freshdesk.com/support/solutions" TextDecorations="Underline"
+                     Foreground="{Binding RelativeSource={RelativeSource AncestorType={Type UserControl}}, Path=Foreground}">
+            <Run Text="{Binding Path=dje_zZD9UQ4JJDJX9WAQ_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd}}}"/>
+          </Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="0,10,0,0" HorizontalAlignment="Center">
+          <Hyperlink NavigateUri="https://alphaxtrade.com/products/appointment" TextDecorations="Underline"
+                     Foreground="{Binding RelativeSource={RelativeSource AncestorType={Type UserControl}}, Path=Foreground}">
+            <Run Text="{Binding Path=dje_zWZBJUFQ53V4UQFZ_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd}}}"/>
+          </Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="0,10,0,0" HorizontalAlignment="Center">
+          <Hyperlink NavigateUri="https://alphaxtrade.com/collections/1-1-coaching" TextDecorations="Underline"
+                     Foreground="{Binding RelativeSource={RelativeSource AncestorType={Type UserControl}}, Path=Foreground}">
+            <Run Text="{Binding Path=dje_zWZSA2LBGNSE6LQFCPUGDMAPRLUHQ_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd}}}"/>
+          </Hyperlink>
+        </TextBlock>
+      </StackPanel>
+    </Grid>
+  </StackPanel>
+</lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd>

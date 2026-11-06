@@ -1,0 +1,65 @@
+<lli11lllli:dje_zAYG7KEKSQSJWJ3VVSCKTT6YLYE7EARVU5ZDEBLD258NQA2Z_ejd xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                                                     xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     ll111l1:Name="PopupParent" HorizontalAlignment="Stretch">
+  <FrameworkElement.Resources>
+    <Style TargetType="{Type TextBlock}">
+      <Style.Triggers>
+        <DataTrigger Binding="{Binding IsMouseOver, ElementName=ParentStackPanel}" Value="True">
+          <Setter Property="TextBlock.Foreground" Value="#FF00A7E6"/>
+        </DataTrigger>
+      </Style.Triggers>
+    </Style>
+    <Style ll111l1:Key="HoverArrowPathStyle" TargetType="{Type Path}">
+      <Setter Property="Shape.Fill" Value="#FF007ACC"/>
+      <Style.Triggers>
+        <DataTrigger Binding="{Binding IsMouseOver, ElementName=ParentStackPanel}" Value="True">
+          <Setter Property="Shape.Fill" Value="#FF00A7E6"/>
+        </DataTrigger>
+      </Style.Triggers>
+    </Style>
+  </FrameworkElement.Resources>
+  <StackPanel ll111l1:Name="ParentStackPanel" Background="Transparent" Orientation="Vertical">
+    <Grid Background="Transparent">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="auto"/>
+      </Grid.ColumnDefinitions>
+      <Image Name="AlphaXImage" Grid.Column="2" Width="100" VerticalAlignment="Center" Stretch="Uniform"
+             RenderOptions.BitmapScalingMode="HighQuality" Margin="4"/>
+      <TextBlock Grid.Column="0" Text="AlphaX Bias PRO" FontWeight="Bold" FontSize="12" VerticalAlignment="Center"
+                 Margin="4,0,0,2"/>
+      <Popup ll111l1:Name="PopupWindow" Placement="Bottom" AllowsTransparency="False" StaysOpen="False"
+             PopupAnimation="Fade" PlacementTarget="{Binding ElementName=PopupParent}">
+        <lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={Type lli11lllli:dje_zLMLSGQX98328K4M4JDEHLYJ5N37MMH9DPW5FV2BFFTA33Z2_ejd}}, Path=DataContext}"/>
+      </Popup>
+    </Grid>
+    <TextBlock Margin="4,0,4,2" FontSize="12">
+      <Hyperlink NavigateUri="https://alphaxtrade.com/pages/alphax-bias-pro" TextDecorations="Underline">
+        <Run Text="{Binding Path=dje_zXXF2YNXA58QVZDA_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zAYG7KEKSQSJWJ3VVSCKTT6YLYE7EARVU5ZDEBLD258NQA2Z_ejd}}}"/>
+      </Hyperlink>
+    </TextBlock>
+    <Grid Background="Transparent">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="24"/>
+      </Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0" Margin="4,0,4,4" FontSize="10">
+        <Run FontWeight="Normal"
+             Text="{Binding Path=dje_zVZTQ72AL_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zAYG7KEKSQSJWJ3VVSCKTT6YLYE7EARVU5ZDEBLD258NQA2Z_ejd}}}"/>
+        <Run Text="
+© "/>
+        <Run Text="{Binding Path=dje_zVPGPQBP4_ejd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zAYG7KEKSQSJWJ3VVSCKTT6YLYE7EARVU5ZDEBLD258NQA2Z_ejd}}}"/>
+        <Run Text=", AlphaXtrade"/>
+      </TextBlock>
+      <ContentControl Grid.Column="1" Height="20" Margin="0,0,4,4" RenderOptions.BitmapScalingMode="HighQuality"
+                      VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0">
+        <Canvas>
+          <Path Data="M -10,0 L 10,0 0,9 Z" Canvas.Left="0" Canvas.Top="12"
+                Style="{StaticResource HoverArrowPathStyle}"/>
+        </Canvas>
+      </ContentControl>
+    </Grid>
+  </StackPanel>
+</lli11lllli:dje_zAYG7KEKSQSJWJ3VVSCKTT6YLYE7EARVU5ZDEBLD258NQA2Z_ejd>

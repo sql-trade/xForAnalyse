@@ -1,0 +1,40 @@
+<lli11lllli:dje_zLJS8HDDY7N5C865APQJHUMBW2AQQPL2KZZJPC2UBA8RMYGQ_ejd xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                                                     xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Control.Template>
+    <ControlTemplate TargetType="{Type RadioButton}">
+      <BulletDecorator Background="Transparent">
+        <BulletDecorator.Bullet>
+          <Grid Width="20" Height="20">
+            <Rectangle ll111l1:Name="CheckMark" StrokeThickness="2"
+                       Stroke="{DynamicResource {Static JetSystemColors.HotTrackBrushKey}}"/>
+            <Rectangle StrokeThickness="1" Margin="3" Stroke="#FFF4F7FC"/>
+            <Rectangle Margin="4"
+                       Fill="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_zLJS8HDDY7N5C865APQJHUMBW2AQQPL2KZZJPC2UBA8RMYGQ_ejd}}, Path=ColorSelection}"/>
+          </Grid>
+        </BulletDecorator.Bullet>
+      </BulletDecorator>
+      <ControlTemplate.Triggers>
+        <MultiTrigger>
+          <MultiTrigger.Conditions>
+            <Condition Property="ToggleButton.IsChecked" Value="false"/>
+            <Condition Property="UIElement.IsMouseOver" Value="false"/>
+          </MultiTrigger.Conditions>
+          <MultiTrigger.Setters>
+            <Setter TargetName="CheckMark" Property="UIElement.Visibility" Value="Collapsed"/>
+          </MultiTrigger.Setters>
+        </MultiTrigger>
+        <MultiTrigger>
+          <MultiTrigger.Conditions>
+            <Condition Property="ToggleButton.IsChecked" Value="false"/>
+            <Condition Property="UIElement.IsMouseOver" Value="true"/>
+          </MultiTrigger.Conditions>
+          <MultiTrigger.Setters>
+            <Setter TargetName="CheckMark" Value="{DynamicResource {Static JetSystemColors.ActiveCaptionBrushKey}}"
+                    Property="Shape.Stroke"/>
+          </MultiTrigger.Setters>
+        </MultiTrigger>
+      </ControlTemplate.Triggers>
+    </ControlTemplate>
+  </Control.Template>
+</lli11lllli:dje_zLJS8HDDY7N5C865APQJHUMBW2AQQPL2KZZJPC2UBA8RMYGQ_ejd>

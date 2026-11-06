@@ -1,0 +1,23 @@
+<lli11lllli:dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRDKA_ejd xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                                                     ll111l1:Name="PopupParent" HorizontalAlignment="Stretch" Height="24">
+  <FrameworkElement.Resources>
+    <lli11lllli:dje_zRN5X6BR7JRPYRZHPNYXB5V9YQCPF769BD6USNJ9KTUR77V2_ejd ll111l1:Key="ColorConverter"/>
+  </FrameworkElement.Resources>
+  <StackPanel Orientation="Horizontal" Background="Transparent">
+    <Border Width="18" Height="18" BorderBrush="LightGray" BorderThickness="1" VerticalAlignment="Center">
+      <Rectangle Margin="1">
+        <Shape.Fill>
+          <SolidColorBrush Color="{Binding SelectedColor, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRDKA_ejd}}}"/>
+        </Shape.Fill>
+      </Rectangle>
+    </Border>
+    <Label Margin="10,0,0,0" VerticalAlignment="Center"
+           Content="{Binding SelectedColor, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRDKA_ejd}}, Converter={StaticResource ColorConverter}}"/>
+    <Popup ll111l1:Name="PopupWindow" Placement="Bottom" AllowsTransparency="False" StaysOpen="False"
+           PopupAnimation="Fade" PlacementTarget="{Binding ElementName=PopupParent}">
+      <lli11lllli:dje_zLGAW9XYEHQ2QSVXUQRPM9KUGWBLZCBS9Q3X6M8C73FY28HZ_ejd SelectedColor="{Binding SelectedColor, Mode=TwoWay, RelativeSource={RelativeSource FindAncestor, AncestorType={Type lli11lllli:dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRDKA_ejd}}}"/>
+    </Popup>
+  </StackPanel>
+</lli11lllli:dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRDKA_ejd>

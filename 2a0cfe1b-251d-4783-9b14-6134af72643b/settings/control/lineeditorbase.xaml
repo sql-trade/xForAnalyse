@@ -1,0 +1,125 @@
+<lli11lllli:dje_z8X6EKK78QETUVK3TBYHJPDMVCVFJQ65JNMFWMKBEVHJPGDQ_ejd xmlns:lli11lllli="clr-namespace:-"
+                                                                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                                                     xmlns:ll111l1="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                                     xmlns:l1i1="clr-namespace:OFT.Rendering.Settings;assembly=OFT.Rendering"
+                                                                     IsEnabled="{Binding SettingsEnabled}">
+  <FrameworkElement.Resources>
+    <lli11lllli:dje_z28QZC7TDY7L57PS4RPCTYCD42CJZFMDYR6XLALKFQEDW4EJQ7U2V5_ejd ll111l1:Key="RadioButtonCheckedConverter"/>
+  </FrameworkElement.Resources>
+  <StackPanel Orientation="Vertical" Width="210" MinWidth="210" MaxWidth="210">
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+      <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd ToolTip="Style: Solid"
+                                                                           IsChecked="{Binding Style, Converter={StaticResource RadioButtonCheckedConverter}, ConverterParameter={Static l1i1:LineDashStyle.Solid}}">
+        <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+          <DataTemplate>
+            <Border BorderBrush="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}" BorderThickness="1"
+                    Background="{DynamicResource {Static JetSystemColors.InactiveCaptionTextBrushKey}}">
+              <Canvas>
+                <Line X1="2" Y1="7" X2="28" Y2="7"
+                      Stroke="{DynamicResource {Static JetSystemColors.MenuHighlightBrushKey}}" StrokeThickness="2"/>
+              </Canvas>
+            </Border>
+          </DataTemplate>
+        </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+      </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd>
+      <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd ToolTip="Style: Dash" Height="25"
+                                                                           IsChecked="{Binding Style, Converter={StaticResource RadioButtonCheckedConverter}, ConverterParameter={Static l1i1:LineDashStyle.Dash}}">
+        <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+          <DataTemplate>
+            <Border BorderBrush="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}" BorderThickness="1"
+                    Background="{DynamicResource {Static JetSystemColors.InactiveCaptionTextBrushKey}}">
+              <Canvas>
+                <Line X1="2" Y1="7" X2="28" Y2="7"
+                      Stroke="{DynamicResource {Static JetSystemColors.MenuHighlightBrushKey}}" StrokeDashArray="4 1.5"
+                      StrokeThickness="2"/>
+              </Canvas>
+            </Border>
+          </DataTemplate>
+        </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+      </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd>
+      <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd ToolTip="Style: Dot" Height="25"
+                                                                           IsChecked="{Binding Style, Converter={StaticResource RadioButtonCheckedConverter}, ConverterParameter={Static l1i1:LineDashStyle.Dot}}">
+        <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+          <DataTemplate>
+            <Border BorderBrush="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}" BorderThickness="1"
+                    Background="{DynamicResource {Static JetSystemColors.InactiveCaptionTextBrushKey}}">
+              <Canvas>
+                <Line X1="2" Y1="7" X2="28" Y2="7"
+                      Stroke="{DynamicResource {Static JetSystemColors.MenuHighlightBrushKey}}" StrokeDashArray="1 1"
+                      StrokeThickness="2"/>
+              </Canvas>
+            </Border>
+          </DataTemplate>
+        </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+      </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd>
+      <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd ToolTip="Style: Dash-Dot" Height="25"
+                                                                           IsChecked="{Binding Style, Converter={StaticResource RadioButtonCheckedConverter}, ConverterParameter={Static l1i1:LineDashStyle.DashDot}}">
+        <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+          <DataTemplate>
+            <Border BorderBrush="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}" BorderThickness="1"
+                    Background="{DynamicResource {Static JetSystemColors.InactiveCaptionTextBrushKey}}">
+              <Canvas>
+                <Line X1="2" Y1="7" X2="28" Y2="7"
+                      Stroke="{DynamicResource {Static JetSystemColors.MenuHighlightBrushKey}}" StrokeDashArray="4 1 1 1"
+                      StrokeThickness="2"/>
+              </Canvas>
+            </Border>
+          </DataTemplate>
+        </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+      </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd>
+      <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd ToolTip="Style: Dash-Dot-Dot" Height="25"
+                                                                           IsChecked="{Binding Style, Converter={StaticResource RadioButtonCheckedConverter}, ConverterParameter={Static l1i1:LineDashStyle.DashDotDot}}">
+        <lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+          <DataTemplate>
+            <Border BorderBrush="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}" BorderThickness="1"
+                    Background="{DynamicResource {Static JetSystemColors.InactiveCaptionTextBrushKey}}">
+              <Canvas>
+                <Line X1="2" Y1="7" X2="28" Y2="7"
+                      Stroke="{DynamicResource {Static JetSystemColors.MenuHighlightBrushKey}}"
+                      StrokeDashArray="4 1 1 1 1 1" StrokeThickness="2"/>
+              </Canvas>
+            </Border>
+          </DataTemplate>
+        </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd.PreviewTemplate>
+      </lli11lllli:dje_zTVJ5M4YFM23MGGPU73KRKQ6PSLYQ6W8XYP4HQ65MAGVMLHQ_ejd>
+    </StackPanel>
+    <Grid Margin="3">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="auto"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <ContentControl Grid.Column="0" Grid.Row="1" Width="15" Height="15">
+        <Canvas>
+          <Path StrokeThickness="0" Fill="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}">
+            <Path.Data>
+              <GeometryGroup>
+                <RectangleGeometry Rect="5,5 5 5"/>
+              </GeometryGroup>
+            </Path.Data>
+          </Path>
+        </Canvas>
+      </ContentControl>
+      <Slider Grid.Column="1" Grid.Row="1" Minimum="1" Maximum="8" TickFrequency="1" VerticalAlignment="Center"
+              Margin="5,0,5,0" HorizontalAlignment="Stretch" AutoToolTipPlacement="BottomRight"
+              TickPlacement="None" Value="{Binding Width}"
+              ToolTip="{Binding RelativeSource={RelativeSource Self}, Path=Value}"/>
+      <ContentControl Grid.Column="2" Grid.Row="1" Width="15" Height="15">
+        <Canvas>
+          <Path StrokeThickness="0" Fill="{DynamicResource {Static JetSystemColors.InactiveBorderBrushKey}}">
+            <Path.Data>
+              <GeometryGroup>
+                <RectangleGeometry Rect="2,2 11 11"/>
+              </GeometryGroup>
+            </Path.Data>
+          </Path>
+        </Canvas>
+      </ContentControl>
+    </Grid>
+    <lli11lllli:dje_z2LY88C74WWPJ6EQ4HMHY2NRTC3DUZG389PRM6C274YLRDKA_ejd HorizontalAlignment="Center"
+                                                                         SelectedColor="{Binding Color, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+  </StackPanel>
+</lli11lllli:dje_z8X6EKK78QETUVK3TBYHJPDMVCVFJQ65JNMFWMKBEVHJPGDQ_ejd>
